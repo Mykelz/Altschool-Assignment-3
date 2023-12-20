@@ -3,10 +3,10 @@
 
 *{
     font-family: 'Lato', sans-serif;
-    background-color: #F5F8FA;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F5F8FA;
 }
 
 .logo{
@@ -47,7 +47,7 @@
     width: 800px;
     height: 680px;
     border-radius: 0px, 6px, 6px, 0px;
-    margin: 50px auto 100px;
+    margin: 50px auto 20px;
     background-color: #FFFFFF;
     justify-content: center;
     box-shadow: 0px 5px 15px 0px #0000000D;
@@ -453,3 +453,21 @@
     margin-top: 8px;
     margin-left: 10px;
 }
+
+.section-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.section-footer p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #636B6F;
+}
+
